@@ -204,6 +204,7 @@ body {
   text-decoration: none;
 }
 .address-list {
+  font-style: normal;
   text-decoration:none;
   list-style: none;
   font-weight: 400;
