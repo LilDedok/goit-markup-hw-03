@@ -240,7 +240,8 @@ body {
 
 .filter-button:active,
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus{
+  cursor: pointer;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
