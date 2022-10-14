@@ -5,6 +5,7 @@
   --quaternary-text-color: #ffffff;
   --bg-team-color: #F5F4FA;
   --bg-color: #2f303a;
+  --but-bg-color:#188CE8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -34,12 +35,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .header-list .header-link:hover,
 .header-list .header-link:focus {
   color: var(--secondary-text-color);
 }
 .header-link {
   color: var(--primery-text-color);
+}
+.header-link .curent{
+  color: var(--secondary-text-color);
 }
 .header-mail,
 .header-tel {
@@ -86,6 +91,7 @@ body {
   color: var(--quaternary-text-color);
 }
 .button {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -98,16 +104,8 @@ body {
   background: var(--secondary-text-color);
 }
 .button:active {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: var(--quaternary-text-color);
-  background: var(--secondary-text-color);
+  background: var(--but-bg-color);
 }
 /*-----------------FEATURES-------------*/
 .features {
@@ -127,7 +125,6 @@ body {
   color: var(--primery-text-color);
 }
 .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,7 +173,6 @@ body {
   color: var(--primery-text-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -242,21 +238,13 @@ body {
 .filter-button:active,
 .filter-button:hover,
 .filter-button:focus{
-  cursor: pointer;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--quaternary-text-color);
   background: var(--secondary-text-color);
-  border-radius: 4px;
 }
 .filter-button {
+  cursor: pointer;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -276,7 +264,7 @@ body {
   letter-spacing: 0.06em;
 }
 .project-type {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
