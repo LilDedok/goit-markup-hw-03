@@ -38,6 +38,7 @@ body {
  padding-left: 15px;
 }
 .header {
+  border-bottom: 1px solid var(--line-color);
   background-color: #ffffff;
 }
 .header a{
@@ -113,10 +114,7 @@ body {
 .header-tel:focus {
   color: var(--secondary-text-color);
 }
-.line{
-  display: block;
-  border: 1px solid var(--line-color);
-}
+
 /*-----------------MAIN-------------*/
 .main {
 }
@@ -215,6 +213,8 @@ body {
   padding-bottom: 94px;
 }
 .skills-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
